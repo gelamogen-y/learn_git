@@ -1,0 +1,16 @@
+# --- Python 缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDE 配置 ---
+.vscode/
+.idea/
+
+# --- 操作系统临时文件 ---
+.DS_Store
+Thumbs.db
+
+# --- 项目特定 (uv 相关) ---
+.python-version
+# 注意：pyproject.toml 和 uv.lock 通常是要上传的，不要写在这里
